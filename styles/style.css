@@ -95,4 +95,22 @@ margin: 20px 0px;
   color: white;
   background:  rgb(17, 17, 17);
 }
+/* .standard-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(bg.png);
+} */
 
+
+ .card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  padding: 60px 0px 60px 0px;
+ }
+ .card-box{
+  box-sizing: border-box;
+  border-radius: 18px;
+ }

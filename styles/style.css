@@ -18,6 +18,7 @@
  justify-content: center;
  align-items: center;
   fixed-height: 20px;
+  fixed-width: 1000px;
 }
 .school{
 font-weight: 700;
@@ -35,7 +36,7 @@ margin-right: 100px;
 }
 .nav-link{
   text-decoration: none;
-  text-align: justify;
+
   
 }
 #home-color{
@@ -51,18 +52,47 @@ color: #05D4DF;
 color: #5D58EF;
 }
 .contact-btn{
-  width: 70px;
+  width: 110px;
+  padding: 10px;
   border: none;
   border-radius: 12px;
-  
   color: rgb(255, 255, 255);
 font-family: Quicksand;
-font-size: 20px;
+font-size: 18px;
 font-weight: 600;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
-
-/* Orange */
 background: rgb(254, 163, 1);
 }
+/* banner section style */
+.banner-section{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.banner-heading{
+  font: Quicksand;
+  font-weight: 700;
+  font-size: 3rem;
+}
+#empower{  
+ color: rgb(254, 163, 1);
+}
+#vision{
+ color: rgb(1, 172, 253);
+}
+.creativity{
+  color: rgb(17, 17, 17);
+font: Quicksand;
+font-size: 20px;
+font-weight: 400;
+margin: 20px 0px;
+
+}
+.roll-btn{
+  width: 105px;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  background:  rgb(17, 17, 17);
+}
+

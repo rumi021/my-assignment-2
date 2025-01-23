@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/* shared style */
+*{
+  padding: 0,0;
+  margin: 0 auto;
+}
+.display{
+  display:flex;
+}
+
+
+
+
+
+
+.navbar{ 
+ justify-content: center;
+ align-items: center;
+  fixed-height: 20px;
+}
+.school{
+font-weight: 700;
+font-size: 2rem;
+margin-left: 4px;
+}
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+  text-align: center;
+}
+.nav-links{
+margin-right: 100px;
+
+}
+.nav-link{
+  text-decoration: none;
+  text-align: justify;
+  
+}
+#home-color{
+color: #FEA301;
+}
+#about-color{
+color: #01ACFD;
+}
+#facilities-color{
+color: #05D4DF;
+}
+#admission-color{
+color: #5D58EF;
+}
+.contact-btn{
+  width: 70px;
+  border: none;
+  border-radius: 12px;
+  
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+
+/* Orange */
+background: rgb(254, 163, 1);
+}

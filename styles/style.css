@@ -95,13 +95,17 @@ margin: 20px 0px;
   color: white;
   background:  rgb(17, 17, 17);
 }
-/* .standard-section{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(bg.png);
-} */
 
+/* main section  */
+/* .main{
+  background: url(bg.png);
+} */
+ .standard-heading{
+  margin-top: 60px;
+
+ }
+  
+  
 
  .card-container{
   display: flex;
@@ -144,5 +148,140 @@ X:0 Y:0 Blur: 28.3 extension: 0.94 rgba(0, 0, 0, 0.05);
   font-weight: 700;
   font-size: 1.6rem;
   margin-top: 30px;
+}
+.box-description{
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 33px;
+}
+.read{
+  font: Quicksand;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 38px;
+}
+#colorfulone{
+ color: rgb(100, 200, 255);
+}
+#colorfultwo{
+  color: rgb(240, 170, 0);
+}
+#colorfulthree{
+  color: rgb(135, 0, 255);
+}
+ #classic-btn{
+  color:rgb(255, 255, 255);
+  position: relative;
+width: 60px;
+height: 60px;
+  border: none;
+  border-radius: 30px;
+background: rgb(254, 163, 1);
+font: Awesome 5 Free;
+Font-weight: 700;
+Font-size: 20px;
+}
+/* design for story section */
+.story-section{
+  padding: 5% 0;
+}
+.story-section h1{
+  text-align: center;
+  margin-bottom: 80px;
+  font-weight: 700;
+  font-size: 2.9rem;
+}
+.grid-layout{
+   max-width: 1140px;
+  display: flex;
+  gap: 18px;
+}
+.left-layout{
+  background-color: white;
+  border-radius: 15px;
+}
+.right-layout{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-around;
+  gap: 12px;
+  align-items: center;
+}
+.right-layout-children{
+  background-color: white;
+  border-radius: 15px;
+}
+.left-layout-info,.right-layout-children-info{
+  padding: 5%;
+}
 
+
+.left-layout img,.right-layout-children img{
+  width: 100%;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.left-layout-info h3{
+font-weight: 700;
+font-size: 1.7rem;
+}
+.left-layout-info p{
+  margin-top: 3rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+
+}
+.left-layout time{
+  border-radius: 47.93px;
+  color: white;
+  padding: 3% 5%;
+  position: relative;
+  top: -40px;
+background: rgb(60, 216, 232);
+}
+.right-layout-children time{
+  border-radius: 47.93px;
+  color: white;
+  padding: 3% 5%;
+  position: relative;
+  top: -35px;
+
+background: rgb(149, 178, 38);
+}
+
+/* responsive for mobile phone */
+@media screen and (max-width:576px) {
+  *{
+    padding: 0,0;
+    margin: 0 auto;
+  }
+  .contact-btn,.nav-item,.school{
+    display: none;
+  }
+  .hero-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+  }
+.banner-section{
+  flex-direction: column-reverse;
+}
+.banner-heading{
+  margin: 20px 0px;
+  text-align: center;
+}
+.creativity{
+  margin: 20px 0px;
+ font-size: 14px;
+
+}
+.roll-btn{
+  
+}
+  
+  
+ 
+    
+ 
 }
